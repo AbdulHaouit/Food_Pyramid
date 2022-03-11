@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    background: grey;
+  }
+  h2 {
+    font-size: 3vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h2:hover{
+    color:white;
+  }
+  form{
+    text-align: centre;
+    margin-bottom: 1vh;
+  }
+  #dateInputUser {
+    margin: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 1.2vw;
+  }
+  #FoodPyramid {
+    position: relative;
+    clip-path: polygon(50% 0%, 5% 100%, 95% 100%);
+  }
+  button {
+    padding: 1px;
+    border-radius: 20%;
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    font-size: 1.5vw;
+    border-style: none;
+    background-color: black;
+    color:hover white;
+  }
+  .level div{
+    font-size: 1.7vw;
+    font-weight:700;
+    margin: 0 auto 0 auto;
+    padding: 3px;
+    text-align: center;
+    color:hover white;
+  }
+  .level:hover button {
+    background-color: grey;
+    color: white;
+  }
+  .level:hover {
+    color: white;
+  }
+  .one{
+    background-color: red;
+    padding-top: 7%;
+  }
+  .two {
+    background-color: orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 1.5%;
+  }
+  .three {
+    background-color: gold;
+    padding-top: 0.5%;
+  }
+  .four {
+    background-color: blue;
+    padding-top: 2%;
+  }
+  .five {
+    background-color: brown;
+    padding-top: 2%;
+  }
+  .six {
+    background-color: green;
+    padding-top: 2%;
+  }
+  .label:hover{
+    color: white;
+    font-size: 1.3vw;
+    font-weight:700;
+    padding-bottom: 0;
+  }
+  .contents{
+    margin-bottom: 3px;
+  }
+  
